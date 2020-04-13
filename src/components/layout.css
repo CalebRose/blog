@@ -1,0 +1,50 @@
+/* FONTS */
+@font-face {
+  src: url("../fonts/LemonMilkRegular.otf");
+  font-family: "Lemon";
+}
+
+@font-face {
+  src: url("../fonts/RoyalCrescent.ttf");
+  font-family: "Royal";
+}
+
+body {
+  background: url(../images/dawn.jpg) center / cover;
+  background-attachment: fixed;
+  color: whitesmoke;
+}
+
+.main {
+  min-height: 100vh;
+}
+
+main {
+  min-height: calc(85vh - 5em);
+}
+
+.rubicon {
+  font-family: "Lemon";
+}
+
+.post-header {
+  font-family: "Royal";
+  letter-spacing: 0.03em;
+}
+
+small {
+  color: #dddddd;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+footer {
+  color: #dddddd;
+}
+
+a {
+  color: #2889dd;
+}
+
+.post {
+}

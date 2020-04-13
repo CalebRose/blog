@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./layout.css"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -10,6 +11,7 @@ const Layout = ({ location, title, children }) => {
   if (location.pathname === rootPath) {
     header = (
       <h1
+        className="rubicon"
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),
@@ -29,9 +31,9 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <h3
+      <h2
+        className="rubicon"
         style={{
-          fontFamily: `Montserrat, sans-serif`,
           marginTop: 0,
         }}
       >
@@ -44,16 +46,19 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h3>
+      </h2>
     )
   }
   return (
     <div
+      className="main"
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        backgroundColor: `rgba(0, 0, 0, 0.7)`,
+        borderRadius: `1px`,
+        maxWidth: rhythm(28),
+        padding: `${rhythm(1.5)} ${rhythm(3 / 3)}`,
       }}
     >
       <header>{header}</header>

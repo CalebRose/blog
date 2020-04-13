@@ -1,14 +1,15 @@
 module.exports = {
+  pathPrefix: "/blog",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `The Rubicon`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `c.t.Rose`,
+      summary: `who lives and works in Austin building useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: ``,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `ctrose17`,
     },
   },
   plugins: [
@@ -60,8 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `c.t.Rose`,
+        short_name: `ctrose`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
