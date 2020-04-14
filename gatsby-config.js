@@ -4,10 +4,10 @@ module.exports = {
     title: `The Rubicon`,
     author: {
       name: `c.t.Rose`,
-      summary: `who lives and works in Austin building useful things.`,
+      summary: `-- Cross on Over. `,
     },
     description: ``,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://calebrose.io/`,
     social: {
       instagram: `ctrose17`,
     },
@@ -67,7 +67,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

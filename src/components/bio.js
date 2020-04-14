@@ -7,7 +7,7 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+// import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
 
@@ -57,7 +57,7 @@ const Bio = () => {
         }}
       /> */}
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
+        by <strong>{author.name}</strong> {author.summary}
         {` `}
         <a href={`https://instagram.com/${social.instagram}`}>
           Follow me on Instagram!
